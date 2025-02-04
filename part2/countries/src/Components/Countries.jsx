@@ -35,8 +35,8 @@ const Countries = ({countries, selectedCountry,onSelectCountry}) => {
     }
 
     if (countries.length === 1) {
-        console.log('single match')
-        console.log(countries[0])
+        // console.log('single match')
+        // console.log(countries[0])
         return (
             <DetailedCountryInfo country={countries[0]} />
         )
