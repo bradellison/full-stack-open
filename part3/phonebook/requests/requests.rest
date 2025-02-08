@@ -1,0 +1,18 @@
+GET http://localhost:3001/api/people/
+
+###
+GET http://localhost:3001/api/people/3
+
+###
+POST http://localhost:3001/api/people/ HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Polly Pepper",
+    "number": "7614-0091f47"
+}
+
+
+###
+DELETE http://localhost:3001/api/people/3
+
